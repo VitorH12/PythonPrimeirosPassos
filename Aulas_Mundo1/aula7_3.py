@@ -1,0 +1,10 @@
+print('Brincando com o comando print')
+print('Multiplicando palavras', 'Oi' * 5)
+nome = 'Vítor'
+print('Prazer em te conhecer {}!'.format(nome))
+print('Prazer em te conhecer {:50}!'.format(nome))
+print('Prazer em te conhecer {:>50}!'.format(nome))
+print('Prazer em te conhecer {:<50}!'.format(nome))
+print('Prazer em te conhecer {:^50}!'.format(nome))
+print('Prazer em te conhecer {:->50}!'.format(nome))
+print('Prazer em te conhecer {:-^50}!'.format(nome))
